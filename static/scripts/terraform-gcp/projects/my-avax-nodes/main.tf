@@ -13,7 +13,7 @@ provider "google-beta" {
 # ------------------------------------------------------------------------------
 
 module "vpc" {
-  source           = "../../../modules/vpc"
+  source           = "../../modules/vpc"
 
   region           = "${var.region}"
   zone             = "${var.zone}"

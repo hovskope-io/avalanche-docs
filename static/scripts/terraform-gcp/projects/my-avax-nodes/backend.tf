@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "my-avax-project"
+    bucket = "my-avax-nodes-tf-state"
     prefix  = "state"
   }
 }
