@@ -39,5 +39,5 @@ module "node" {
   p2p_port            = "${var.p2p_port}"
   base_os_image       = "${var.base_os_image}"
   bucket_name         = "${var.bucket_name}"
-  #total_instances     = "${var.total_instances}"  
+  total_instances     = "${var.total_instances}"  
 }

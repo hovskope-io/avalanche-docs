@@ -47,3 +47,8 @@ variable "bucket_name" {
   description = "The gcs bucket name"
   type        = string
 }
+
+variable "total_instances" {
+  description = "The total number of gcp instances."
+  type        = number
+}
