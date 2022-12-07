@@ -17,3 +17,8 @@ variable "node_subnet_name" {
   description = "The node subnet name"
   type        = string
 }
+
+variable "ip_cidr_range" {
+  description = "The subnet ip range to setup"
+  type        = string
+}
