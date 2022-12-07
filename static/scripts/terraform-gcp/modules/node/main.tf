@@ -121,7 +121,7 @@ resource "google_compute_firewall" "p2p_ingress" {
 
   allow {
     protocol = "tcp"
-    ports    = ["${var.p2pport}"]
+    ports    = ["${var.p2p_port}"]
   }
 
   target_tags = ["${var.node_name_prefix}-${count.index}"]
